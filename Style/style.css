@@ -177,7 +177,7 @@ h3 {
   font-family: "roboto";
 }
 
-.row {
+.row-3 {
   display: flex;
   padding: 20px;
   max-width: 1000px;
@@ -191,7 +191,7 @@ h3 {
   border: none;
   border-radius: 8px;
   background-color: transparent;
-  box-sizing: border-box; /* Memastikan padding tidak mempengaruhi lebar total kolom */
+  box-sizing: border-box;
 }
 
 p {
@@ -399,6 +399,13 @@ footer {
     text-align: center;
     font-size: large;
   }
+
+  .row-3 {
+    display: block;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 50px auto;
+  }
   
 }
 
@@ -428,7 +435,7 @@ footer {
     width: 100%;
   }
   .section-2 p {
-    max-width: 300px;
+    max-width: 500px;
   }
 
   .section-2 h2 {
@@ -484,6 +491,15 @@ footer {
     padding-left: 0;
     text-align: center;
   }
+
+  .row-3 {
+    display: block;
+    padding: 20px;
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  
+ 
 
   
 }
